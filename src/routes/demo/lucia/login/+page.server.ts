@@ -80,7 +80,7 @@ export const actions: Actions = {
 			const session = await auth.createSession(sessionToken, userId);
 			auth.setSessionTokenCookie(event, sessionToken, session.expiresAt);
 		} catch (e) {
-			return fail(500, { message: 'An error has occurred' });
+			return fail(500, { message: 'An error has occurred: ' + (e instanceof Error ? e.message : 'unknown error') });
 		}
 		return redirect(302, '/demo/lucia');
 	}
