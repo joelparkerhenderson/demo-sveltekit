@@ -1,7 +1,7 @@
 import { pgTable, serial, text, integer, timestamp } from 'drizzle-orm/pg-core';
 
 export const user = pgTable('user', {
-	id: text('id').primaryKey(),
+	id: integer('id').primaryKey().generatedAlwaysAsIdentity({ startWith: 1 }),
 	age: integer('age'),
 	username: text('username').notNull().unique(),
 	passwordHash: text('password_hash').notNull()
@@ -9,7 +9,7 @@ export const user = pgTable('user', {
 
 export const session = pgTable('session', {
 	id: text('id').primaryKey(),
-	userId: text('user_id')
+	userId: integer('user_id')
 		.notNull()
 		.references(() => user.id),
 	expiresAt: timestamp('expires_at', { withTimezone: true, mode: 'date' }).notNull()
