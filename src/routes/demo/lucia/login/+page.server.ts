@@ -64,7 +64,6 @@ export const actions: Actions = {
 			return fail(400, { message: 'Invalid password' });
 		}
 
-		const userId = generateUserId();
 		const passwordHash = await hash(password, {
 			// recommended minimum parameters
 			memoryCost: 19456,
@@ -74,10 +73,12 @@ export const actions: Actions = {
 		});
 
 		try {
-			await db.insert(table.user).values({ id: userId, username, passwordHash });
+			const results = await db.insert(table.user).values({ username, passwordHash }).returning();
+			const user = results.at(0);
+			if (user == undefined) throw new Error('user is undefined');
 
 			const sessionToken = auth.generateSessionToken();
-			const session = await auth.createSession(sessionToken, userId);
+			const session = await auth.createSession(sessionToken, user.id);
 			auth.setSessionTokenCookie(event, sessionToken, session.expiresAt);
 		} catch (e) {
 			return fail(500, { message: 'An error has occurred: ' + (e instanceof Error ? e.message : 'unknown error') });
@@ -85,13 +86,6 @@ export const actions: Actions = {
 		return redirect(302, '/demo/lucia');
 	}
 };
-
-function generateUserId() {
-	// ID with 120 bits of entropy, or about the same as UUID v4.
-	const bytes = crypto.getRandomValues(new Uint8Array(15));
-	const id = encodeBase32LowerCase(bytes);
-	return id;
-}
 
 function validateUsername(username: unknown): username is string {
 	return (
