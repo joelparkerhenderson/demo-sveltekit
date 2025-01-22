@@ -1,0 +1,27 @@
+<header class="topbar" style="width: 100%; height: 96px;">
+   <div style="display: flex; padding: var(--paddings-spacing-25, 12px) var(--paddings-spacing-5, 20px); flex-direction: column; align-items: flex-start; gap: var(--paddings-spacing-2, 8px); flex-shrink: 0;">
+      <div class="breadcrumbs text-sm">
+         <ul>
+           <li><a href="#">Previous page 1</a></li>
+           <li><a href="#">Previous page 2</a></li>
+           <li>Page name</li>
+         </ul>
+      </div>
+      <div class="page-name">
+        <h1 class="text-md" style="font-weight: 500; color: var(--Text-Primary, #18181B);">Page Name</h1>
+        <div class="action-buttons" style="display: flex; align-items: flex-start; gap: var(--paddings-spacing-2, 8px);">
+          <div role="button" style="display: flex; width: var(--spacing-6, 24px); height: var(--spacing-6, 24px); padding: var(--spacing-0, 0px) var(--spacing-2, 8px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px); flex-shrink: 0; border-radius: var(--u-borderRadius-xs, 4px); border: var(--borderWidth-button, 1px) solid var(--color-status-error-bg, #F00);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00007 1.75C6.68061 1.75 6.36235 1.75511 6.04539 1.76525C5.60519 1.77933 5.25007 2.14896 5.25007 2.61228V2.67798C5.82895 2.64283 6.41246 2.625 7.00007 2.625C7.58769 2.625 8.17119 2.64283 8.75007 2.67798V2.61228C8.75007 2.14896 8.39495 1.77933 7.95476 1.76525C7.63779 1.75511 7.31954 1.75 7.00007 1.75ZM9.62507 2.74457V2.61228C9.62507 1.69967 8.91776 0.920607 7.98273 0.890696C7.65645 0.880258 7.32887 0.875 7.00007 0.875C6.67128 0.875 6.3437 0.880258 6.01741 0.890696C5.08238 0.920607 4.37507 1.69967 4.37507 2.61228V2.74457C3.81815 2.79555 3.26584 2.8626 2.71861 2.94524C2.516 2.97584 2.31409 3.00857 2.1129 3.04342C1.87482 3.08466 1.71525 3.3111 1.75649 3.54918C1.79773 3.78726 2.02417 3.94682 2.26224 3.90558C2.30285 3.89855 2.34348 3.89161 2.38414 3.88475L2.97064 11.5092C3.04078 12.421 3.80105 13.125 4.71549 13.125H9.28466C10.1991 13.125 10.9594 12.421 11.0295 11.5092L11.616 3.88475C11.6567 3.89161 11.6973 3.89855 11.7379 3.90558C11.976 3.94682 12.2024 3.78726 12.2437 3.54918C12.2849 3.3111 12.1253 3.08466 11.8872 3.04342C11.6861 3.00857 11.4841 2.97584 11.2815 2.94524C10.7343 2.8626 10.182 2.79555 9.62507 2.74457ZM10.7486 3.75271C10.2216 3.68106 9.68991 3.62431 9.15387 3.58289C8.44323 3.52797 7.72496 3.5 7.00007 3.5C6.27518 3.5 5.55692 3.52797 4.84628 3.58289C4.31024 3.62431 3.77852 3.68106 3.25157 3.75271L3.84307 11.4421C3.87813 11.898 4.25827 12.25 4.71549 12.25H9.28466C9.74188 12.25 10.122 11.898 10.1571 11.4421L10.7486 3.75271ZM5.3847 4.81282C5.62615 4.80354 5.8294 4.99174 5.83869 5.23319L6.04061 10.4832C6.0499 10.7246 5.8617 10.9279 5.62025 10.9372C5.37881 10.9465 5.17555 10.7583 5.16626 10.5168L4.96434 5.26681C4.95505 5.02537 5.14325 4.82211 5.3847 4.81282ZM8.61544 4.81282C8.85689 4.82211 9.04509 5.02537 9.03581 5.26681L8.83388 10.5168C8.8246 10.7583 8.62134 10.9465 8.37989 10.9372C8.13845 10.9279 7.95024 10.7246 7.95953 10.4832L8.16145 5.23319C8.17074 4.99174 8.374 4.80354 8.61544 4.81282Z" fill="#E81A2A"/>
+            </svg>
+          </div>
+          <div role="button" style="display: flex; height: var(--spacing-8, 32px); padding: var(--spacing-0, 0px) var(--spacing-3, 12px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px); border-radius: var(--u-borderRadius-xs, 4px); border: var(--borderWidth-button, 1px) solid var(--Stroke-StyleStroke, #E4E4E7);">
+            Button 1
+          </div>
+          <div role="button" style="display: flex; height: var(--spacing-8, 32px); padding: var(--spacing-0, 0px) var(--spacing-3, 12px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px); border-radius: var(--u-borderRadius-xs, 4px); border: var(--borderWidth-button, 1px) solid var(--Stroke-StyleStroke, #E4E4E7);">
+            Button 2
+          </div>
+        </div>
+      </div>
+   </div>
+</header>
