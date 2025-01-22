@@ -1,0 +1,17 @@
+<header class="topbar-with-dropdown" style="width: 100%; height: 48px;">
+   <div style="display: flex; padding: var(--paddings-spacing-25, 12px) var(--paddings-spacing-5, 20px); justify-content: space-between; align-items: center; align-self: stretch;">
+       <h1 class="text-md" style="font-weight: 500; color: var(--Text-Primary, #18181B);">
+           Page Name
+       </h1>
+       <span>
+           <details class="dropdown">
+               <summary class="btn m-1">Open or Close</summary>
+               <ul class="menu dropdown-content rounded-box z-[1] w-52 p-2 shadow">
+                   <li><a href="#">Item 1</a></li>
+                   <li><a href="#">Item 2</a></li>
+                   <li><a href="#">Item 3</a></li>
+               </ul>
+           </details>
+       </span>
+   </div>
+</header>
