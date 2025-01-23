@@ -1,0 +1,13 @@
+<div class="banner" style="border-radius: var(--u-borderRadius-s, 8px); background: var(--color-semantic-primary-primaryContent, #F5F4FE); display: flex; padding: var(--u-spacing-5, 20px); flex-direction: column; justify-content: center; align-items: center; gap: var(--u-spacing-5, 20px); align-self: stretch;">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--u-spacing-2, 8px); align-self: stretch;">
+    <div style="font-family: var(--Family-primary, 'Work Sans'); font-size: var(--size-md, 16px); font-style: normal; font-weight: var(--weight-medium, 500); line-height: var(--lineHeight-leading-6, 24px); letter-spacing: var(--letterSpacing-tracking-normal, 0px); color: var(--Text-Primary, #18181B); text-align: center;">
+      Looking for the custom template?
+    </div>
+    <div style="font-family: var(--Family-primary, 'Work Sans'); font-size: var(--size-sm, 14px); font-style: normal; font-weight: 400; line-height: var(--lineHeight-leading-5, 20px); letter-spacing: var(--letterSpacing-tracking-normal, 0px);">
+      If you need a custom template that is missing in the template’s library, you can contact us and our Brilliance Lab will create it for you!
+    </div>
+  </div>
+  <button class="btn btn-primary" style="height: var(--spacing-8, 32px); padding: var(--spacing-0, 0px) var(--spacing-3, 12px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px); border-radius: var(--u-borderRadius-xs, 4px); background: var(--color-semantic-primary-primary, #774ED9);">
+    Contact us
+  </button>
+</div>
