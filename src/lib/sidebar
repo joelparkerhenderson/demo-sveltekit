@@ -1,0 +1,54 @@
+<nav class="sidebar" style="display: flex; width: 220px; padding: var(--spacing-3, 12px) var(--spacing-2, 8px) var(--spacing-5, 20px) var(--spacing-2, 8px); flex-direction: column; align-items: flex-start; gap: var(--spacing-6, 24px); flex-shrink: 0; align-self: stretch; border-right: 1px solid var(--Stroke-StyleStroke, #E4E4E7); background: var(--color-base-base-100, #FFF);">
+  <div>
+    <div class="styles_wrapped" style="display: flex; justify-content: space-between; align-items: center; align-self: stretch;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="103.104px" height="24px" style="padding: 2.496px 3.168px 2.436px 3.456px; justify-content: center; align-items: flex-start; gap: 6.335px;">
+        <!-- SVG content goes here -->
+      </svg>
+      <div class="collapse_button">
+        <div role="button" style="display: flex; width: var(--spacing-8, 32px); height: var(--spacing-8, 32px); padding: var(--spacing-0, 0px) var(--spacing-3, 12px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px); border-radius: var(--u-borderRadius-xs, 4px);">
+          <svg xmlns="http://www.w3.org/2000/svg" width="var(--t-spacing-35, 14px)" height="var(--t-spacing-35, 14px)" style="flex-shrink: 0;">
+            <!-- Chevron SVG content -->
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_links" style="display: flex; flex-direction: column; align-items: flex-start; gap: var(--spacing-3, 12px); flex: 1 0 0; align-self: stretch;">
+      <a href="home_page" class="menu_item" style="display: flex; align-items: flex-start; align-self: stretch;">
+        <div class="container" style="display: flex; height: var(--spacing-8, 32px); padding: 0px var(--spacing-2, 8px); align-items: center; gap: var(--spacing-15, 6px); flex: 1 0 0;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="var(--t-spacing-35, 14px)" height="var(--t-spacing-35, 14px)" style="flex-shrink: 0;">
+            <!-- Home icon SVG -->
+          </svg>
+          <div style="font-size: var(--text-sm, 14px);">Home</div>
+        </div>
+      </a>
+
+      <div class="analytics_links">
+        <div class="title" style="display: flex; height: var(--spacing-6, 24px); padding: 0px var(--spacing-2, 8px); align-items: center; gap: var(--t-spacing-15, 6px); align-self: stretch;">Analytics</div>
+
+        <a href="Dashboard_page" class="menu_item" style="display: flex; align-items: flex-start; align-self: stretch;">
+          <div class="container" style="display: flex; height: var(--spacing-8, 32px); padding: 0px var(--spacing-2, 8px); align-items: center; gap: var(--spacing-15, 6px); flex: 1 0 0;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="var(--t-spacing-35, 14px)" height="var(--t-spacing-35, 14px)" style="flex-shrink: 0;">
+              <!-- Dashboard icon -->
+            </svg>
+            <div style="font-size: var(--text-sm, 14px);">Dashboard</div>
+          </div>
+        </a>
+
+        <!-- Additional links like gap analyses, action items, etc., with similar structure -->
+
+        <div class="bottom_actions" style="display: flex; flex-direction: column; align-items: flex-start; gap: var(--spacing-3, 12px); align-self: stretch;">
+          <div class="button" style="display: flex; width: 204px; height: var(--spacing-8, 32px); padding: var(--spacing-0, 0px) var(--spacing-3, 12px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px); border-radius: var(--u-borderRadius-xs, 4px); background: var(--color-semantic-primary-primary, #774ED9);">
+            Ask Jules
+          </div>
+          <div class="profile" style="display: flex; height: var(--spacing-8, 32px); padding: 0px var(--spacing-2, 8px); align-items: center; gap: var(--spacing-15, 6px); flex: 1 0 0;">
+            <div class="avatar" style="display: flex; width: var(--spacing-6, 24px); height: var(--spacing-6, 24px); align-items: flex-start;">
+              <div style="width: 100%; height: 100%;">
+                <img src="image" alt="Avatar" style="flex: 1 0 0; align-self: stretch; border-radius: var(--u-borderRadius-rounded, 1000px); background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</nav>
