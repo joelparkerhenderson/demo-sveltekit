@@ -1,0 +1,7 @@
+<div class="tab_row" style="display: flex; padding: 0 var(--u-spacing-5, 20px); align-items: flex-start; gap: var(--paddings-spacing-15, 6px); flex: 1 0 0; border-bottom: 1px solid var(--Stroke-StyleStroke, #E4E4E7);">
+  <div role="tablist" class="tabs tabs-bordered">
+    <a role="tab" class="tab" aria-selected="false" href="#dashboard" id="tab-dashboard">Dashboard</a>
+    <a role="tab" class="tab tab-active" aria-selected="true" href="#action-plan" id="tab-action-plan">Action plan</a>
+    <a role="tab" class="tab" aria-selected="false" href="#report" id="tab-report">Report</a>
+  </div>
+</div>
