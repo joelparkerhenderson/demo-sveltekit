@@ -1,0 +1,42 @@
+<div class="card bg-base-100 shadow-sm" style="display: flex; padding: var(--u-spacing-5, 20px); flex-direction: column; align-items: flex-start; gap: var(--u-spacing-3, 12px); align-self: stretch; border-radius: var(--u-borderRadius-s, 8px); background: var(--Background-Background, #FFF);">
+  <span class="sans/text-md/normal">Key observations</span>
+  
+  <div class="insightsList" style="display: flex; flex-direction: column; align-items: flex-start; gap: var(--u-spacing-2, 8px); align-self: stretch;">
+    <div class="row" style="display: flex; align-items: flex-start; gap: var(--paddings-spacing-2, 8px);">
+      <div style="display: flex; height: 20px; padding-left: var(--paddings-spacing-2, 8px); align-items: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+          <circle cx="3" cy="3" r="3" fill="#18181B"/>
+        </svg>
+      </div>
+      <span class="sans/text-sm/normal">The highest income category is 'Consulting Services' with a value of 5.96, closely followed by 'Capital Gains' at 5.93.</span>
+    </div>
+
+    <div class="row" style="display: flex; align-items: flex-start; gap: var(--paddings-spacing-2, 8px);">
+      <div style="display: flex; height: 20px; padding-left: var(--paddings-spacing-2, 8px); align-items: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+          <circle cx="3" cy="3" r="3" fill="#18181B"/>
+        </svg>
+      </div>
+      <span class="sans/text-sm/normal">The largest expense category is 'Equipment Purchases' with a value of 9.84, significantly higher than other categories.</span>
+    </div>
+
+    <div class="row" style="display: flex; align-items: flex-start; gap: var(--paddings-spacing-2, 8px);">
+      <div style="display: flex; height: 20px; padding-left: var(--paddings-spacing-2, 8px); align-items: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+          <circle cx="3" cy="3" r="3" fill="#18181B"/>
+        </svg>
+      </div>
+      <span class="sans/text-sm/normal">Income from 'Product Sales' is relatively low at 3.56, indicating a potential area for growth.</span>
+    </div>
+
+    <div class="row" style="display: flex; align-items: flex-start; gap: var(--paddings-spacing-2, 8px);">
+      <div style="display: flex; height: 20px; padding-left: var(--paddings-spacing-2, 8px); align-items: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+          <circle cx="3" cy="3" r="3" fill="#18181B"/>
+        </svg>
+      </div>
+      <span class="sans/text-sm/normal">Expenses on 'Shipping and Handling' are notably high at 5.82, suggesting a need for cost optimization.</span>
+    </div>
+  </div>
+
+</div>
