@@ -1,0 +1,17 @@
+<div class="nonIdealState" style="display: flex; height: 896px; padding: var(--u-spacing-5, 20px); flex-direction: column; justify-content: center; align-items: center; gap: var(--u-spacing-3, 12px);align-self: stretch;">
+  <div class="content" style="display: flex; width: 320px; flex-direction: column; justify-content: center; align-items: center; gap: var(--paddings-spacing-6, 24px);">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g opacity="0.3">
+        <rect width="36" height="36" fill="white"/>
+        <path d="M18 1.125C11.1655 1.125 5.625 6.66548 5.625 13.5C5.625 18.0762 8.10947 22.0707 11.7977 24.2107C12.8259 24.8072 13.4698 25.7226 13.4989 26.6438C13.515 27.152 13.8698 27.5862 14.3646 27.7031C14.8917 27.8277 15.4288 27.9257 15.9744 27.9958C16.4598 28.0582 16.8753 27.6694 16.8753 27.18V20.1884C16.3964 20.1354 15.927 20.049 15.4699 19.9313C14.8681 19.7764 14.5059 19.1631 14.6608 18.5614C14.8156 17.9597 15.429 17.5975 16.0307 17.7523C16.6589 17.914 17.3186 18.0003 18.0003 18.0003C18.6819 18.0003 19.3416 17.914 19.9699 17.7523C20.5716 17.5975 21.1849 17.9597 21.3398 18.5614C21.4946 19.1631 21.1324 19.7764 20.5307 19.9313C20.0735 20.049 19.6042 20.1354 19.1253 20.1884V27.1799C19.1253 27.6693 19.5408 28.0581 20.0262 27.9958C20.5716 27.9257 21.1085 27.8276 21.6354 27.7031C22.1302 27.5862 22.485 27.152 22.5011 26.6438C22.5302 25.7226 23.1741 24.8072 24.2023 24.2107C27.8905 22.0707 30.375 18.0762 30.375 13.5C30.375 6.66548 24.8345 1.125 18 1.125Z" fill="#774ED9"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5197 29.8495C13.6355 29.239 14.2242 28.8381 14.8347 28.9539C15.8591 29.1482 16.9171 29.25 18 29.25C19.0829 29.25 20.1409 29.1482 21.1653 28.9539C21.7758 28.8381 22.3645 29.239 22.4803 29.8495C22.5961 30.4599 22.1951 31.0486 21.5847 31.1644C20.4227 31.3849 19.2243 31.5 18 31.5C16.7757 31.5 15.5773 31.3849 14.4153 31.1644C13.8049 31.0486 13.4039 30.4599 13.5197 29.8495Z" fill="#774ED9"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6311 33.516C14.6958 32.898 15.2491 32.4495 15.867 32.5141C16.5677 32.5874 17.2793 32.625 18 32.625C18.7207 32.625 19.4323 32.5874 20.1329 32.5141C20.7509 32.4495 21.3042 32.898 21.3689 33.516C21.4335 34.1339 20.985 34.6873 20.3671 34.7519C19.5888 34.8333 18.7991 34.875 18 34.875C17.2009 34.875 16.4112 34.8333 15.633 34.7519C15.015 34.6873 14.5665 34.1339 14.6311 33.516Z" fill="#774ED9"/>
+      </g>
+    </svg>
+    <div class="text" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--paddings-spacing-2, 8px); align-self: stretch;">
+      <spine class="sans/text-lg/semibold" style="color: var(--Text-text_default, #000); text-align: center;">Improvement roadmap</spine>
+       <spine class="sans/text-sm/normal" style="color: var(--Text-text_muted, #3F3F46); text-align: center;">Based ou your company’s performance indicators</spine>
+      <button class="btn btn-primary">Generate action plan</button>
+    </div>
+  </div>
+</div>
