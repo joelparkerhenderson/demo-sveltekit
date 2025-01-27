@@ -1,0 +1,15 @@
+<div class="quantitative_insights" style="display: flex; flex-direction: column; align-items: flex-start; gap: var(--u-spacing-3, 12px); align-self: stretch;">
+    <span class="sans/text-md/medium" style="color: var(--Text-Primary, #18181B);">Quantitative insights</span>
+    <div class="insights_cards" style="display: flex; align-items: flex-start; gap: var(--u-spacing-3, 12px); align-self: stretch;">
+        <div class="card" style="display: flex; padding: var(--u-spacing-5, 20px); flex-direction: column; align-items: flex-start; gap: var(--u-spacing-1, 4px); flex: 1 0 0; border-radius: var(--u-borderRadius-s, 8px); background: var(--color-base-base-100, #FFFFFF); box-shadow: tailwind/DropShadow/sm;">
+            <span class="sans/text-md/semiBold" style="color: var(--color-semantic-primary-primary, #774ED9);">29.9%</span>
+            <span class="sans/text-sm/medium" style="color: var(--Text-Primary, #18181B);">Overdue accounts</span>
+            <span class="sans/text-xs/normal" style="color: var(--Text-Secondary, #3F3F46);">Current overdue accounts percentage of total receivables.</span>
+        </div>
+        <div class="card" style="display: flex; padding: var(--u-spacing-5, 20px); flex-direction: column; align-items: flex-start; gap: var(--u-spacing-1, 4px); flex: 1 0 0; border-radius: var(--u-borderRadius-s, 8px); background: var(--color-base-base-100, #FFFFFF); box-shadow: tailwind/DropShadow/sm;">
+            <span class="sans/text-md/semiBold" style="color: var(--color-semantic-primary-primary, #774ED9);">29.9%</span>
+            <span class="sans/text-sm/medium" style="color: var(--Text-Primary, #18181B);">Overdue accounts</span>
+            <span class="sans/text-xs/normal" style="color: var(--Text-Secondary, #3F3F46);">Current overdue accounts percentage of total receivables.</span>
+        </div>
+    </div>
+</div>
