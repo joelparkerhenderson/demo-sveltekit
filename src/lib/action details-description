@@ -1,0 +1,43 @@
+<div class="action_description" style="display: flex; flex-direction: column; align-items: flex-start; gap: var(--u-spacing-3, 12px); align-self: stretch;">
+  
+  <div class="row" style="display: flex; align-items: flex-start; gap: var(--u-spacing-5, 20px); align-self: stretch;">
+    <div class="left" style="display: flex; width: 164px; align-items: center; gap: var(--paddings-spacing-2, 8px);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 1.5C4.77614 1.5 5 1.72386 5 2V3H11V2C11 1.72386 11.2239 1.5 11.5 1.5C11.7761 1.5 12 1.72386 12 2V3H12.5C13.6046 3 14.5 3.89543 14.5 5V12.5C14.5 13.6046 13.6046 14.5 12.5 14.5H3.5C2.39543 14.5 1.5 13.6046 1.5 12.5V5C1.5 3.89543 2.39543 3 3.5 3H4V2C4 1.72386 4.22386 1.5 4.5 1.5ZM3.5 4C2.94772 4 2.5 4.44772 2.5 5V5.76756C2.79417 5.59739 3.13571 5.5 3.5 5.5H12.5C12.8643 5.5 13.2058 5.59739 13.5 5.76756V5C13.5 4.44772 13.0523 4 12.5 4H3.5ZM13.5 7.5C13.5 6.94772 13.0523 6.5 12.5 6.5H3.5C2.94772 6.5 2.5 6.94772 2.5 7.5V12.5C2.5 13.0523 2.94772 13.5 3.5 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5V7.5Z" fill="#71717A"/>
+      </svg>
+      <span class="sans/text-sm/normal" style="color: var(--Text-Tertiary, #71717A);">Due date</span>
+    </div>
+    <span class="sans/text-sm/normal" style="color: var(--Text-Primary, #18181B);">21/12/2024</span>
+  </div>
+  
+    <div class="row" style="display: flex; align-items: flex-start; gap: var(--u-spacing-5, 20px); align-self: stretch;">
+    <div class="left" style="display: flex; width: 164px; align-items: center; gap: var(--paddings-spacing-2, 8px);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 2C3.61193 2 3.5 2.11193 3.5 2.25V13.75C3.5 13.8881 3.61193 14 3.75 14H12.25C12.3881 14 12.5 13.8881 12.5 13.75V7.75C12.5 6.7835 11.7165 6 10.75 6H9.75C9.05964 6 8.5 5.44036 8.5 4.75V3.75C8.5 2.7835 7.7165 2 6.75 2H3.75ZM3.75 1C3.05964 1 2.5 1.55964 2.5 2.25V13.75C2.5 14.4404 3.05964 15 3.75 15H12.25C12.9404 15 13.5 14.4404 13.5 13.75V7.5C13.5 3.91015 10.5899 1 7 1H3.75ZM9.17137 2.44523C9.381 2.83346 9.5 3.27783 9.5 3.75V4.75C9.5 4.88807 9.61193 5 9.75 5H10.75C11.2222 5 11.6665 5.119 12.0548 5.32864C11.4992 4.03699 10.463 3.00082 9.17137 2.44523ZM5 10C5 9.72386 5.22386 9.5 5.5 9.5H10.5C10.7761 9.5 11 9.72386 11 10C11 10.2761 10.7761 10.5 10.5 10.5H5.5C5.22386 10.5 5 10.2761 5 10ZM5 12C5 11.7239 5.22386 11.5 5.5 11.5H8C8.27614 11.5 8.5 11.7239 8.5 12C8.5 12.2761 8.27614 12.5 8 12.5H5.5C5.22386 12.5 5 12.2761 5 12Z" fill="#71717A"/>
+      </svg>
+      <span class="sans/text-sm/normal" style="color: var(--Text-Tertiary, #71717A);">Description</span>
+    </div>
+    <span class="sans/text-sm/normal" style="color: var(--Text-Primary, #18181B);">Focus on reducing the percentage of overdue accounts, particulary in the “1-30” days category, to improve cash flow.</span>
+  </div>
+  
+      <div class="row" style="display: flex; align-items: flex-start; gap: var(--u-spacing-5, 20px); align-self: stretch;">
+    <div class="left" style="display: flex; width: 164px; align-items: center; gap: var(--paddings-spacing-2, 8px);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 2C3.61193 2 3.5 2.11193 3.5 2.25V13.75C3.5 13.8881 3.61193 14 3.75 14H12.25C12.3881 14 12.5 13.8881 12.5 13.75V7.75C12.5 6.7835 11.7165 6 10.75 6H9.75C9.05964 6 8.5 5.44036 8.5 4.75V3.75C8.5 2.7835 7.7165 2 6.75 2H3.75ZM3.75 1C3.05964 1 2.5 1.55964 2.5 2.25V13.75C2.5 14.4404 3.05964 15 3.75 15H12.25C12.9404 15 13.5 14.4404 13.5 13.75V7.5C13.5 3.91015 10.5899 1 7 1H3.75ZM9.17137 2.44523C9.381 2.83346 9.5 3.27783 9.5 3.75V4.75C9.5 4.88807 9.61193 5 9.75 5H10.75C11.2222 5 11.6665 5.119 12.0548 5.32864C11.4992 4.03699 10.463 3.00082 9.17137 2.44523ZM5 10C5 9.72386 5.22386 9.5 5.5 9.5H10.5C10.7761 9.5 11 9.72386 11 10C11 10.2761 10.7761 10.5 10.5 10.5H5.5C5.22386 10.5 5 10.2761 5 10ZM5 12C5 11.7239 5.22386 11.5 5.5 11.5H8C8.27614 11.5 8.5 11.7239 8.5 12C8.5 12.2761 8.27614 12.5 8 12.5H5.5C5.22386 12.5 5 12.2761 5 12Z" fill="#71717A"/>
+      </svg>
+      <span class="sans/text-sm/normal" style="color: var(--Text-Tertiary, #71717A);">Short description</span>
+    </div>
+    <span class="sans/text-sm/normal" style="color: var(--Text-Primary, #18181B);">Enhance collection strategies to reduce overdue accounts..</span>
+  </div>
+  
+      <div class="row" style="display: flex; align-items: flex-start; gap: var(--u-spacing-5, 20px); align-self: stretch;">
+    <div class="left" style="display: flex; width: 164px; align-items: center; gap: var(--paddings-spacing-2, 8px);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.5C5.51472 1.5 3.5 3.51472 3.5 6C3.5 7.66292 4.40173 9.1158 5.74529 9.89535C6.41017 10.2811 7 10.9822 7 11.8722V12C7 12.2761 6.77614 12.5 6.5 12.5C6.22386 12.5 6 12.2761 6 12V11.8722C6 11.4517 5.71214 11.0322 5.24344 10.7603L5.49437 10.3278L5.24344 10.7603C3.60421 9.8092 2.5 8.03384 2.5 6C2.5 2.96243 4.96243 0.5 8 0.5C11.0376 0.5 13.5 2.96243 13.5 6C13.5 8.03384 12.3958 9.80921 10.7566 10.7603C10.2879 11.0322 10 11.4517 10 11.8722V12C10 12.2761 9.77614 12.5 9.5 12.5C9.22386 12.5 9 12.2761 9 12V11.8722C9 10.9822 9.58983 10.2811 10.2547 9.89535C11.5983 9.1158 12.5 7.66292 12.5 6C12.5 3.51472 10.4853 1.5 8 1.5ZM6.51578 8.24939C6.58461 7.98197 6.8572 7.82098 7.12463 7.88981C7.40384 7.96167 7.69705 8 8 8C8.30295 8 8.59616 7.96167 8.87537 7.88981C9.1428 7.82098 9.41539 7.98197 9.48422 8.24939C9.55305 8.51682 9.39206 8.78941 9.12463 8.85824C8.92144 8.91054 8.71285 8.94896 8.5 8.97251V12C8.5 12.2761 8.27614 12.5 8 12.5C7.72386 12.5 7.5 12.2761 7.5 12V8.97251C7.28715 8.94896 7.07857 8.91054 6.87537 8.85824C6.60794 8.78941 6.44695 8.51682 6.51578 8.24939ZM6.00876 13.2664C6.06023 12.9951 6.32188 12.8169 6.59319 12.8684C7.0485 12.9548 7.51873 13 8 13C8.48127 13 8.95151 12.9548 9.40682 12.8684C9.67812 12.8169 9.93978 12.9951 9.99124 13.2664C10.0427 13.5377 9.86449 13.7994 9.59319 13.8509C9.07675 13.9488 8.54412 14 8 14C7.45588 14 6.92326 13.9488 6.40682 13.8509C6.13551 13.7994 5.9573 13.5377 6.00876 13.2664ZM6.50271 14.896C6.53144 14.6213 6.77738 14.422 7.05202 14.4507C7.36341 14.4833 7.67967 14.5 8 14.5C8.32033 14.5 8.63659 14.4833 8.94798 14.4507C9.22262 14.422 9.46856 14.6213 9.49729 14.896C9.52602 15.1706 9.32667 15.4166 9.05202 15.4453C8.70613 15.4815 8.35515 15.5 8 15.5C7.64485 15.5 7.29387 15.4815 6.94798 15.4453C6.67333 15.4166 6.47398 15.1706 6.50271 14.896Z" fill="#71717A"/>
+      </svg>
+      <span class="sans/text-sm/normal" style="color: var(--Text-Tertiary, #71717A);">Impact</span>
+    </div>
+    <span class="sans/text-sm/normal" style="color: var(--Text-Primary, #18181B);">Estimated 20% reduction in overdue receivables and improved cash flow.</span>
+  </div>
+  
+</div>
