@@ -1,19 +1,27 @@
 <script lang="ts">
 	import Stat from '$lib/daisyui/Stat.svelte';
 	import Stats from '$lib/daisyui/Stats.svelte';
-	let items = [
-		['Title A', 'Value B', 'Description C'],
-		['Title D', 'Value E', 'Description F'],
-		['Title G', 'Value H', 'Description I']
+    let stat = { title: 'Alfa', value: 'Bravo'};
+	let stats = [
+		{ title: 'Charlie', value: 'Delta'},
+		{ title: 'Echo', value: 'Foxtrot'}
 	];
 </script>
 
 <h1>Welcome to SvelteKit</h1>
 
-<Stat 
-	title="My Title" 
-	value="My Value" 
-	description="My Description" 
-/>
+<hr>
 
-<Stats {items} />
+<Stat {stat} />
+
+<hr>
+
+<div class="stats">
+	{#each stats as stat}
+		<Stat {stat} />
+	{/each}
+</div>
+
+<hr>
+
+<Stats {stats} />
