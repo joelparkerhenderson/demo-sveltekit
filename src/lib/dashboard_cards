@@ -1,0 +1,25 @@
+<div class="dashboard_cards">
+  <div class="title">
+    <span class="sans/text-md/medium">Recents/Starred/Dashboards/Templates</span>
+    <div class="action-buttons">
+      <button class="btn btn-square btn-ghost btn-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.43436 2.31564C6.60521 2.4865 6.60521 2.7635 6.43436 2.93436L2.80622 6.5625H12.25C12.4916 6.5625 12.6875 6.75838 12.6875 7C12.6875 7.24163 12.4916 7.4375 12.25 7.4375H2.80622L6.43436 11.0656C6.60521 11.2365 6.60521 11.5135 6.43436 11.6844C6.2635 11.8552 5.9865 11.8552 5.81564 11.6844L1.44064 7.30936C1.26979 7.13851 1.26979 6.8615 1.44064 6.69064L5.81564 2.31564C5.9865 2.14479 6.2635 2.14479 6.43436 2.31564Z"
+            fill="#71717A" />
+        </svg>
+      </button>
+      <button class="btn btn-square btn-ghost btn-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.56564 2.31564C7.73649 2.14479 8.0135 2.14479 8.18436 2.31564L12.5594 6.69064C12.6414 6.77269 12.6875 6.88397 12.6875 7C12.6875 7.11603 12.6414 7.22731 12.5594 7.30936L8.18436 11.6844C8.0135 11.8552 7.73649 11.8552 7.56564 11.6844C7.39479 11.5135 7.39479 11.2365 7.56564 11.0656L11.1938 7.4375H1.75C1.50838 7.4375 1.3125 7.24163 1.3125 7C1.3125 6.75838 1.50838 6.5625 1.75 6.5625H11.1938L7.56564 2.93436C7.39479 2.7635 7.39479 2.4865 7.56564 2.31564Z"
+            fill="#18181B" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
