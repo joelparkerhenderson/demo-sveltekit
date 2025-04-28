@@ -1,0 +1,20 @@
+<div class="searchbar" style="display: flex; padding: var(--u-spacing-2, 8px) var(--u-spacing-5, 20px); align-items: flex-start; gap: var(--spacing-25, 10px); align-self: stretch;">
+  <label class="input input-bordered flex items-center gap-2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.125 2.1875C3.95038 2.1875 2.1875 3.95038 2.1875 6.125C2.1875 8.29962 3.95038 10.0625 6.125 10.0625C7.21243 10.0625 8.19621 9.62226 8.90923 8.90923C9.62226 8.19621 10.0625 7.21243 10.0625 6.125C10.0625 3.95038 8.29962 2.1875 6.125 2.1875ZM1.3125 6.125C1.3125 3.46713 3.46713 1.3125 6.125 1.3125C8.78287 1.3125 10.9375 3.46713 10.9375 6.125C10.9375 7.29623 10.5187 8.37028 9.82329 9.20457L12.5594 11.9406C12.7302 12.1115 12.7302 12.3885 12.5594 12.5594C12.3885 12.7302 12.1115 12.7302 11.9406 12.5594L9.20457 9.82329C8.37028 10.5187 7.29623 10.9375 6.125 10.9375C3.46713 10.9375 1.3125 8.78287 1.3125 6.125Z" fill="#18181B"/>
+    </svg>
+    <input type="text" class="grow" placeholder="Search" />
+  </label>
+  <div role="group" style="display: flex; padding: var(--spacing-1, 4px); align-items: center; gap: var(--spacing-1, 4px); border-radius: var(--u-borderRadius-xs, 4px); border: 1px solid var(--Stroke-StyleStroke, #E4E4E7); background: var(--Background-bg_default, #FFF);">
+    <button class="btn btn-square btn-ghost" aria-label="Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.75 3.9375C1.75 3.69588 1.94588 3.5 2.1875 3.5H11.8125C12.0541 3.5 12.25 3.69588 12.25 3.9375C12.25 4.17912 12.0541 4.375 11.8125 4.375H2.1875C1.94588 4.375 1.75 4.17912 1.75 3.9375ZM1.75 7C1.75 6.75838 1.94588 6.5625 2.1875 6.5625H11.8125C12.0541 6.5625 12.25 6.75838 12.25 7C12.25 7.24162 12.0541 7.4375 11.8125 7.4375H2.1875C1.94588 7.4375 1.75 7.24162 1.75 7ZM1.75 10.0625C1.75 9.82088 1.94588 9.625 2.1875 9.625H11.8125C12.0541 9.625 12.25 9.82088 12.25 10.0625C12.25 10.3041 12.0541 10.5 11.8125 10.5H2.1875C1.94588 10.5 1.75 10.3041 1.75 10.0625Z" fill="#18181B"/>
+      </svg>
+    </button>
+    <button class="btn btn-square btn-neutral" aria-label="Grid View">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.75 3.5C1.75 2.5335 2.5335 1.75 3.5 1.75H4.8125C5.779 1.75 6.5625 2.5335 6.5625 3.5V4.8125C6.5625 5.779 5.779 6.5625 4.8125 6.5625H3.5C2.5335 6.5625 1.75 5.779 1.75 4.8125V3.5ZM3.5 2.625C3.01675 2.625 2.625 3.01675 2.625 3.5V4.8125C2.625 5.29575 3.01675 5.6875 3.5 5.6875H4.8125C5.29575 5.6875 5.6875 5.29575 5.6875 4.8125V3.5C5.6875 3.01675 5.29575 2.625 4.8125 2.625H3.5Z" fill="#F4F4F5"/>
+      </svg>
+    </button>
+  </div>
+</div>
