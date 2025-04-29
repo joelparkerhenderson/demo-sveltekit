@@ -1,0 +1,19 @@
+<div class="card bg-base-100 w-96 shadow-xl" style="border-radius: var(--u-borderRadius-s, 8px); background: var(--color-base-base-100, #fff);">
+  <div class="card-body" style="display: flex; padding: var(--spacing-5, 20px); flex-direction: column; align-items: flex-start; gap: var(--spacing-0, 0px); align-self: stretch;>
+    <h3 class="card-title">Improve collection process for overdue accounts</h3>
+    <p>Enhance collection strategies to reduce overdue accounts.</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary btn-otline">Unpublish</button>
+    </div>
+  </div>
+</div>
+                                                
+<div class="card bg-base-100 w-96 shadow-xl" style="border-radius: var(--u-borderRadius-s, 8px); background: var(--color-base-base-100, #fff);">
+  <div class="card-body" style="display: flex; padding: var(--spacing-5, 20px); flex-direction: column; align-items: flex-start; gap: var(--spacing-0, 0px); align-self: stretch;>
+    <h3 class="card-title">Improve collection process for overdue accounts</h3>
+    <p>Enhance collection strategies to reduce overdue accounts.</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-default btn-otline">Publish</button>
+    </div>
+  </div>
+</div>     
