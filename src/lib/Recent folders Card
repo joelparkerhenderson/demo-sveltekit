@@ -1,0 +1,56 @@
+<div class="recent_groups">
+  <div class="styles_recentDashboardsCard" style="display: flex; height: 384px; padding: var(--paddings-spacing-4, 16px); flex-direction: column; align-items: flex-start; gap: var(--paddings-spacing-2, 8px); align-self: stretch; border-radius: var(--Radius-md, 8px); background: var(--Background-Background, #FFFFFF); box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);">
+    
+    <div class="styles_rowTitle" style="display: flex; align-items: center; gap: var(--spacing-1, 4px); align-self: stretch;">
+      <div style="display: flex; height: var(--spacing-6, 24px); padding-right: var(--spacing-1, 4px); justify-content: center; align-items: center; gap: var(--spacing-2, 8px);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M4.08337 3.20825C4.08337 2.725 4.47512 2.33325 4.95837 2.33325C5.44162 2.33325 5.83337 2.725 5.83337 3.20825C5.83337 3.6915 5.44162 4.08325 4.95837 4.08325C4.47512 4.08325 4.08337 3.6915 4.08337 3.20825ZM4.08337 6.70825C4.08337 6.225 4.47512 5.83325 4.95837 5.83325C5.44162 5.83325 5.83337 6.225 5.83337 6.70825C5.83337 7.1915 5.44162 7.58325 4.95837 7.58325C4.47512 7.58325 4.08337 7.1915 4.08337 6.70825ZM4.08337 10.2083C4.08337 9.725 4.47512 9.33325 4.95837 9.33325C5.44162 9.33325 5.83337 9.725 5.83337 10.2083C5.83337 10.6915 5.44162 11.0833 4.95837 11.0833C4.47512 11.0833 4.08337 10.6915 4.08337 10.2083Z" fill="#3F3F46"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.58337 3.20825C7.58337 2.725 7.97512 2.33325 8.45837 2.33325C8.94162 2.33325 9.33337 2.725 9.33337 3.20825C9.33337 3.6915 8.94162 4.08325 8.45837 4.08325C7.97512 4.08325 7.58337 3.6915 7.58337 3.20825ZM7.58337 6.70825C7.58337 6.225 7.97512 5.83325 8.45837 5.83325C8.94162 5.83325 9.33337 6.225 9.33337 6.70825C9.33337 7.1915 8.94162 7.58325 8.45837 7.58325C7.97512 7.58325 7.58337 7.1915 7.58337 6.70825ZM7.58337 10.2083C7.58337 9.725 7.97512 9.33325 8.45837 9.33325C8.94162 9.33325 9.33337 9.725 9.33337 10.2083C9.33337 10.6915 8.94162 11.0833 8.45837 11.0833C7.97512 11.0833 7.58337 10.6915 7.58337 10.2083Z" fill="#3F3F46"/>
+        </svg>
+      </div>
+      <span class="styles_sans/text-md/normal">Recent groups/folders</span>
+    </div>
+
+    <div class="row" style="display: flex; padding: var(--paddings-spacing-2, 8px) 0px; flex-direction: column; align-items: flex-start; gap: 4px; align-self: stretch;">
+      <div class="nameRow" style="display: flex; align-items: center; gap: var(--paddings-spacing-2, 8px); align-self: stretch;">
+        <div class="icon" style="width: 20px; height: 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 3.75C3.05964 3.75 2.5 4.30964 2.5 5V7.83446C2.86772 7.62174 3.29464 7.5 3.75 7.5H16.25C16.7054 7.5 17.1323 7.62174 17.5 7.83446V7.5C17.5 6.80964 16.9404 6.25 16.25 6.25H11.7678C11.2705 6.25 10.7936 6.05246 10.4419 5.70083L8.67417 3.93306C8.55696 3.81585 8.39799 3.75 8.23223 3.75H3.75ZM17.5 10C17.5 9.30964 16.9404 8.75 16.25 8.75H3.75C3.05964 8.75 2.5 9.30964 2.5 10V15C2.5 15.6904 3.05964 16.25 3.75 16.25H16.25C16.9404 16.25 17.5 15.6904 17.5 15V10ZM18.75 15C18.75 16.3807 17.6307 17.5 16.25 17.5H3.75C2.36929 17.5 1.25 16.3807 1.25 15V5C1.25 3.61929 2.36929 2.5 3.75 2.5H8.23223C8.72951 2.5 9.20643 2.69754 9.55806 3.04917L11.3258 4.81694C11.443 4.93415 11.602 5 11.7678 5H16.25C17.6307 5 18.75 6.11929 18.75 7.5V15Z" fill="#774ED9"/>
+          </svg>  
+        </div>
+        <span class="sans/text-sm/normal">Marketing team</span>
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.1875 1.3125L12.25 1.3125C12.366 1.3125 12.4773 1.35859 12.5594 1.44064C12.6414 1.52269 12.6875 1.63397 12.6875 1.75V4.8125C12.6875 5.05412 12.4916 5.25 12.25 5.25C12.0084 5.25 11.8125 5.05412 11.8125 4.8125V2.80622L4.68436 9.93436C4.5135 10.1052 4.2365 10.1052 4.06564 9.93436C3.89479 9.7635 3.89479 9.4865 4.06564 9.31564L11.1938 2.1875L9.1875 2.1875C8.94588 2.1875 8.75 1.99162 8.75 1.75C8.75 1.50838 8.94588 1.3125 9.1875 1.3125ZM3.0625 3.9375C2.57925 3.9375 2.1875 4.32925 2.1875 4.8125V10.9375C2.1875 11.4207 2.57925 11.8125 3.0625 11.8125H9.1875C9.67075 11.8125 10.0625 11.4207 10.0625 10.9375V6.125C10.0625 5.88338 10.2584 5.6875 10.5 5.6875C10.7416 5.6875 10.9375 5.88338 10.9375 6.125V10.9375C10.9375 11.904 10.154 12.6875 9.1875 12.6875H3.0625C2.096 12.6875 1.3125 11.904 1.3125 10.9375V4.8125C1.3125 3.846 2.096 3.0625 3.0625 3.0625H7.875C8.11662 3.0625 8.3125 3.25838 8.3125 3.5C8.3125 3.74163 8.11662 3.9375 7.875 3.9375H3.0625Z" fill="#18181B"/>
+               </svg>
+        </button>
+      </div>
+      <div class="date" style="padding-left: var(--spacing-7, 28px);">
+        <div class="dateContent" style="display: flex; padding-bottom: var(--spacing-2, 8px); align-items: flex-start; gap: 8px; align-self: stretch; border-bottom: 1px solid var(--Stroke-StyleStroke, #E4E4E7);">
+          <span class="sans/text-sm/normal">13 files</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="display: flex; padding: var(--paddings-spacing-2, 8px) 0px; flex-direction: column; align-items: flex-start; gap: 4px; align-self: stretch;">
+      <div class="nameRow" style="display: flex; align-items: center; gap: var(--paddings-spacing-2, 8px); align-self: stretch;">
+        <div class="icon" style="width: 20px; height: 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 3.75C3.05964 3.75 2.5 4.30964 2.5 5V7.83446C2.86772 7.62174 3.29464 7.5 3.75 7.5H16.25C16.7054 7.5 17.1323 7.62174 17.5 7.83446V7.5C17.5 6.80964 16.9404 6.25 16.25 6.25H11.7678C11.2705 6.25 10.7936 6.05246 10.4419 5.70083L8.67417 3.93306C8.55696 3.81585 8.39799 3.75 8.23223 3.75H3.75ZM17.5 10C17.5 9.30964 16.9404 8.75 16.25 8.75H3.75C3.05964 8.75 2.5 9.30964 2.5 10V15C2.5 15.6904 3.05964 16.25 3.75 16.25H16.25C16.9404 16.25 17.5 15.6904 17.5 15V10ZM18.75 15C18.75 16.3807 17.6307 17.5 16.25 17.5H3.75C2.36929 17.5 1.25 16.3807 1.25 15V5C1.25 3.61929 2.36929 2.5 3.75 2.5H8.23223C8.72951 2.5 9.20643 2.69754 9.55806 3.04917L11.3258 4.81694C11.443 4.93415 11.602 5 11.7678 5H16.25C17.6307 5 18.75 6.11929 18.75 7.5V15Z" fill="#774ED9"/>
+          </svg
+        </div>
+        <span class="sans/text-sm/normal">Accounting</span>
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.1875 1.3125L12.25 1.3125C12.366 1.3125 12.4773 1.35859 12.5594 1.44064C12.6414 1.52269 12.6875 1.63397 12.6875 1.75V4.8125C12.6875 5.05412 12.4916 5.25 12.25 5.25C12.0084 5.25 11.8125 5.05412 11.8125 4.8125V2.80622L4.68436 9.93436C4.5135 10.1052 4.2365 10.1052 4.06564 9.93436C3.89479 9.7635 3.89479 9.4865 4.06564 9.31564L11.1938 2.1875L9.1875 2.1875C8.94588 2.1875 8.75 1.99162 8.75 1.75C8.75 1.50838 8.94588 1.3125 9.1875 1.3125ZM3.0625 3.9375C2.57925 3.9375 2.1875 4.32925 2.1875 4.8125V10.9375C2.1875 11.4207 2.57925 11.8125 3.0625 11.8125H9.1875C9.67075 11.8125 10.0625 11.4207 10.0625 10.9375V6.125C10.0625 5.88338 10.2584 5.6875 10.5 5.6875C10.7416 5.6875 10.9375 5.88338 10.9375 6.125V10.9375C10.9375 11.904 10.154 12.6875 9.1875 12.6875H3.0625C2.096 12.6875 1.3125 11.904 1.3125 10.9375V4.8125C1.3125 3.846 2.096 3.0625 3.0625 3.0625H7.875C8.11662 3.0625 8.3125 3.25838 8.3125 3.5C8.3125 3.74163 8.11662 3.9375 7.875 3.9375H3.0625Z" fill="#18181B"/>
+               </svg>
+        </button>
+      </div>
+      <div class="date" style="padding-left: var(--spacing-7, 28px);">
+        <div class="dateContent" style="display: flex; padding-bottom: var(--spacing-2, 8px); align-items: flex-start; gap: 8px; align-self: stretch; border-bottom: 1px solid var(--Stroke-StyleStroke, #E4E4E7);">
+          <span class="sans/text-sm/normal">6 files</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
